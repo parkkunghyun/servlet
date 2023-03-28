@@ -4,7 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModelView {
+    // request.setAttribute의 역할을 할 예정!
+
     private String viewName;
+
+    //여기에 원하는 데이터 넣고 jsp에서 사용하게 만들기!
     private Map<String,Object> model = new HashMap<>();
 
     public ModelView(String viewName) {

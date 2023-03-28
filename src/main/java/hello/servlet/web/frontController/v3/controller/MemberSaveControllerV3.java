@@ -19,6 +19,5 @@ public class MemberSaveControllerV3 implements ControllerV3 {
         ModelView mv= new ModelView("save-result");
         mv.getModel().put("member", member);
         return mv;
-
     }
 }
